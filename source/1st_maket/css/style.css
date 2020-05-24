@@ -1,0 +1,190 @@
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v20-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Roboto'), local('Roboto-Regular'),
+       url('../fonts/roboto-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-v20-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+/* roboto-italic - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/roboto-v20-latin-italic.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Italic'), local('Roboto-Italic'),
+       url('../fonts/roboto-v20-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v20-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-v20-latin-italic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-v20-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-v20-latin-italic.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+/* roboto-500 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/roboto-v20-latin-500.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Medium'), local('Roboto-Medium'),
+       url('../fonts/roboto-v20-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v20-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-v20-latin-500.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-v20-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-v20-latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+/* roboto-700 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v20-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Bold'), local('Roboto-Bold'),
+       url('../fonts/roboto-v20-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-v20-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-v20-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-v20-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-v20-latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+.item {
+  background-color: #333;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  color: white;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body{
+  max-width: 1219px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 1.2;
+  color: #000;
+}
+
+.header {
+  background-color: #007765;
+  height: 84px;
+  position: sticky; /* важно! при fixed слетает */
+  top: 0;           /*   <------------------    */
+}
+
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: inline-block;
+  margin: 20px 0;
+}
+
+a {
+  color: white;
+  font-size: 24px;
+}
+
+nav {
+  display: inline-block;
+  float: right;
+  margin: 10px 0;
+}
+
+ul li {
+  display: inline-block;
+  padding: 8px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 64px;
+  color: #007765;
+}
+
+strong {
+  font-weight: 700;
+}
+
+italic {
+  font-style: italic;
+}
+
+.theproblem {
+  height: 719px;
+  background-color: #eeeeee;
+
+}
+
+.PiedPiperCoin {
+  height: 604px;
+}
+
+.theteam {
+  height: 845px;
+  background-color: #eeeeee;
+
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}
+
+footer {
+  background-color: #333;
+  height: 176px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 48px;
+}
+
+figure {
+  text-align: center;
+  display: inline-block;
+  margin: 35px 50px;
+}
+
+.fighead {
+  color: #007765;
+  font-size: 24px;
+  font-style: bold;
+  padding: 8px 0 0 0;
+}
+.figbody {
+  color: #000;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.tab {
+  text-align: center;
+}
+
+.hero {
+  height: 483px;
+  background-image: url("img/hero.png");
+  background-size: cover;
+  background-position: center center;
+  padding: 0 55px;
+}
